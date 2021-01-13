@@ -1,7 +1,9 @@
-<<<<<<< HEAD
 public class Hase {
+    String fellfarbe;
+    int alter;
+    String rasse;
+    boolean weiblich;
 
-=======
-public class Hase {qwwq
->>>>>>> parent of a607a05 (Attribute Hase)
+
+
 }
