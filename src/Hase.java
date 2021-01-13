@@ -1,0 +1,2 @@
+public class Hase {qwwq
+}
