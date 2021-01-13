@@ -6,6 +6,8 @@ public class Frey {
     double groesse;
     String Sportart;
 
+    Hase haustier;
+
  public Frey (String vorname, String farbehaare,int Alter, boolean geschlecht, double grösse,String sport){
     this.name= vorname;
     this.haarfarbe = farbehaare;
@@ -17,6 +19,10 @@ public class Frey {
  public static void main (String []args){
 
      Frey f1= new Frey("Aaron","schwarz",26,false,1.88,"Boxen");
+
+     Hase hase1 = f1.haustier;
+
+     hase1.setFellfarbe("brown");
 
      System.out.println( f1.name+" hat " +f1.haarfarbe+ "e Haare und ist " +f1.alter+ " Jahre alt");
  }

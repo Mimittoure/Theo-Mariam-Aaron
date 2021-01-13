@@ -26,12 +26,21 @@ public class Lehrer {
         this.weiblich= geschlecht;
     }
 
+    void sayHello(){
+        System.out.println("Hello Class");
+    }
+
+    public String komplimentiert(int note){
+        return "Schlecht!!!!";
+    }
+
     public static void main(String[] args) {
         //Konstruktor von oben initialisieren: Lehrer l1 =new Lehrer("Hanna","mathe","argument","argument");
         Lehrer l1 = new Lehrer ("Rita","Mathe & Deutsch",2.16,13,true);
         Lehrer l2 = new Lehrer ("Alia","Kunst",2.18,10,true);
         Lehrer l3 = new Lehrer ("Peter","Englisch",2.15,8,false);
 
+        System.out.println(l3.komplimentiert(1));
        /*
         //Attribute in der main initialisieren
         Lehrer l1= new Lehrer(); //erzeugen eines neuen Objekts Lehrer vom Typ Lehrer
