@@ -28,7 +28,7 @@ public class Lehrer {
 
     public static void main(String[] args) {
         //Konstruktor von oben initialisieren: Lehrer l1 =new Lehrer("Hanna","mathe","argument","argument");
-        Lehrer l1 = new Lehrer ("Anna","Mathe & Deutsch",2.16,13,true);
+        Lehrer l1 = new Lehrer ("Rita","Mathe & Deutsch",2.16,13,true);
         Lehrer l2 = new Lehrer ("Alia","Kunst",2.18,10,true);
         Lehrer l3 = new Lehrer ("Peter","Englisch",2.15,8,false);
 
